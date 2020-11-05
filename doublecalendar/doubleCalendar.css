@@ -1,0 +1,70 @@
+.calendar div {
+	margin: 0;
+	padding: 0;
+}
+.calendar {
+	margin: 10px auto;
+	width: 260px;
+	border: 1px solid black;
+}
+.calendar .controls {
+	position: relative;
+}
+.calendar .daysofweek {
+	background-color: #EEE;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.calendar .buttons {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	mardin: 0px;
+	cursor: pointer;
+}
+.calendar .day, .calendar .dayofweek, .calendar .emptycell {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.calendar .dayofweek {
+	margin-top: 0px;
+}
+.calendar .day.today {
+	background: green;
+	color: white;
+}
+.calendar .day:hover {
+	color: white;
+	background: black !important;
+}
+.calendar .emptycell {
+	visibility: hidden;
+}
+.calendar .date {
+	margin: 10px;
+}
+.calendar .days {
+	margin: 10px 0px;
+}
+
+.calendar .day {
+	border-radius: 50%;
+}
+
+.calendar .select {
+	background-color: lightblue;
+}
+
+.calendar .start {
+	border: 2px solid red;
+}
+
+.calendar .end {
+	border: 2px solid blue;
+}
